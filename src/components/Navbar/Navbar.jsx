@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href='#Home'>Miukyo</a>
         </div>
         <div className={Style.right}>
-          <a href="#Contact" data-aos='fade-up' data-aos-delay='100'>
+          <a href='#Contact' data-aos='fade-up' data-aos-delay='100'>
             Contact
           </a>
           {/* <a data-aos='fade-up' data-aos-delay='150'>

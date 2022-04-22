@@ -7,6 +7,7 @@
 }
 
 .wrapper {
+  position: relative;
   display: flex;
   grid-column: 2/8;
   justify-content: space-between;
@@ -24,6 +25,9 @@
 }
 
 .center {
+  position: absolute;
+  text-align: center;
+  width: 100%;
   font-size: 30px;
 }
 
