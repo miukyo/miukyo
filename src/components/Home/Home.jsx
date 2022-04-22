@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div id='Home' className={Style.container}>
-        <img className={Style.me} src='src/assets/Me.svg' />
+        <img className={Style.me} src='assets/Me.svg' />
         <div className={Style.wrapper}>
           <h1 data-aos='fade-up' data-aos-delay='150'>
             start where you are
