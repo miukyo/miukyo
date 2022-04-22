@@ -11,6 +11,8 @@
   font-family: "Poppins", sans-serif;
   text-align: right;
   z-index: 5;
+  -webkit-text-stroke: 1px #1a1a1a;
+  -webkit-text-fill-color: white;
   & h1 {
     font-size: 50px;
     line-height: 95%;
