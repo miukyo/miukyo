@@ -1,0 +1,35 @@
+.container {
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  width: 100%;
+  z-index: 999;
+}
+
+.wrapper {
+  display: flex;
+  grid-column: 2/8;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+.left {
+  font-size: 20px;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.center {
+  font-size: 30px;
+}
+
+.right {
+  font-size: 20px;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}

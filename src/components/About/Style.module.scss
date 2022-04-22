@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  margin-bottom: 5rem;
+  & h1 {
+    font-size: 50px;
+    line-height: 95%;
+    margin-bottom: 3rem;
+  }
+  & p {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 90%;
+  }
+  & .stroke {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.foot {
+  position: absolute;
+  width: 100%;
+  bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+

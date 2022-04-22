@@ -1,0 +1,143 @@
+.container {
+  height: 38rem;
+  display: grid;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  & h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+  }
+  & a {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+  }
+}
+
+.wrapperP {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  margin-top: 100px;
+  overflow: hidden;
+  & .shadow {
+    transform: scaleX(1.1);
+    z-index: 5;
+    pointer-events: none;
+    user-select: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 20px 20px #1a1a1a inset;
+  }
+}
+
+.list {
+  max-height: 30rem;
+  overflow: auto;
+  width: 100%;
+  display: grid;
+  font-family: "Poppins", sans-serif;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  & .listContent {
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 12.5vw;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 0.4;
+    margin-top: -1px;
+    transition: opacity 0.2s;
+    &:first-child {
+      margin-top: 35px;
+    }
+    &:last-child {
+      margin-bottom: 35px;
+    }
+    &:hover {
+      opacity: 1;
+      .img {
+        max-height: 130px;
+      }
+    }
+    .coming {
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      & h1 {
+        font-size: 30px;
+        font-weight: 400;
+      }
+    }
+    .title {
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+      width: 10rem;
+      & p {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      & h1 {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 95%;
+      }
+    }
+    .desc {
+      display: flex;
+      flex-direction: column;
+      width: 30rem;
+      & p {
+        font-size: 20px;
+        font-weight: 400;
+      }
+      & h1 {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 98%;
+      }
+    }
+    .img {
+      transition: max-height 0.2s;
+      aspect-ratio: 16/9;
+      max-height: 100px;
+      border: 1px solid #fff;
+      object-fit: cover;
+      object-position: center;
+      overflow: hidden;
+      .innerimg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.foot {
+  z-index: 10;
+  // position: absolute;
+  align-self: flex-end;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}

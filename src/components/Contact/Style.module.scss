@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  padding: 7rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  gap: 5rem;
+}
+
+.right {
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  & h1 {
+    font-size: 60px;
+    line-height: 95%;
+    margin-bottom: 1rem;
+  }
+  & p {
+    max-width: 70%;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 95%;
+  }
+}
