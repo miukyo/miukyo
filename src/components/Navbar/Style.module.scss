@@ -25,6 +25,8 @@
 }
 
 .center {
+  user-select: none;
+  pointer-events: none;
   position: absolute;
   text-align: center;
   width: 100%;
