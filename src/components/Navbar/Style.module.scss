@@ -4,6 +4,12 @@
   grid-template-columns: repeat(8, minmax(0, 1fr));
   width: 100%;
   z-index: 999;
+  background: #1a1a1a;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(26, 26, 26, 1) 100%
+  );
 }
 
 .wrapper {
@@ -40,5 +46,8 @@
   align-items: center;
   @media screen and (max-width: 720px) {
     display: none;
+  }
+  & p {
+    cursor: pointer;
   }
 }

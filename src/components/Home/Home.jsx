@@ -2,7 +2,8 @@ import React from "react";
 import { Fade } from "react-reveal";
 import Style from "./Style.module.scss";
 
-const Home = () => {
+const Home = ({ Local }) => {
+  
   return (
     <>
       <div id='Home' className={Style.container}>
@@ -11,16 +12,16 @@ const Home = () => {
         </Fade>
         <Fade bottom distance={"10rem"} cascade duration={400}>
           <div className={Style.wrapper}>
-            <h1>start where you are</h1>
-            <h2>use what you have</h2>
-            <h2>do what you can</h2>
+            <h1>{Local.header1}</h1>
+            <h2>{Local.header2}</h2>
+            <h2>{Local.header3}</h2>
           </div>
         </Fade>
         <Fade bottom distance={"10rem"} cascade duration={400}>
           <div className={Style.wrapperbg}>
-            <h1>start where you are</h1>
-            <h2>use what you have</h2>
-            <h2>do what you can</h2>
+            <h1>{Local.header1}</h1>
+            <h2>{Local.header2}</h2>
+            <h2>{Local.header3}</h2>
           </div>
         </Fade>
         <Fade bottom distance={"10rem"} duration={400}>

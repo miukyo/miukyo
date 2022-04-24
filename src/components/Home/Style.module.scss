@@ -13,7 +13,7 @@
   -webkit-text-stroke: 1px #1a1a1a;
   -webkit-text-fill-color: white;
   & h1 {
-    font-size: 50px;
+    font-size: 60px;
     line-height: 95%;
     @media screen and (max-width: 1360px) {
       font-size: 5.5vw;
@@ -43,16 +43,15 @@
 .wrapperbg {
   user-select: none;
   pointer-events: none;
-  opacity: 0.3 !important;
+  opacity: 0.1 !important;
   right: 0;
   position: absolute;
   font-family: "Poppins", sans-serif;
   text-align: right;
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: transparent;
-  white-space: nowrap;
   & h1 {
-    font-size: 80px;
+    font-size: 90px;
     line-height: 95%;
     @media screen and (max-width: 1360px) {
       font-size: 9vw;
