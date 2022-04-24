@@ -16,17 +16,41 @@
   }
 }
 
-.Mobile {
-  display: none;
-  @media screen and (max-width: 1360px) {
-    grid-column: 1/-1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1a1a1a;
-    width: 100%;
-    height: 100vh;
-    z-index: 9999;
-    font-family: "Poppins", sans-serif;
+.Loader {
+  grid-column: 1/-1;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  & p {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+  }
+  & .m {
+    position: absolute;
+    font-size: 300px;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    opacity: 0.1;
+  }
+  & .w {
+    width: 5rem;
+    height: 5px;
+    border-radius: 100px;
+    overflow: hidden;
+    & hr {
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+    }
   }
 }

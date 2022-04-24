@@ -5,20 +5,38 @@ import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
 import Works from "./components/Works/Works";
 import Navbar from "./components/Navbar/Navbar";
+import { Fade, Slide } from "react-reveal";
 
 function App() {
+  const [show, setShow] = React.useState(false);
+
   return (
     <div className='App'>
-      {/* <div className='Mobile'>
-        <p>responsive design is not supported yet</p>
-      </div> */}
-      <Navbar />
-      <div className='Container'>
-        <Home />
-        <About />
-        <Works />
-        <Contact />
-      </div>
+      {!show && (
+        <Fade>
+          <div className='Loader'>
+            <p>Miukyo</p>
+            <p className='m'>Miukyo</p>
+            <div className='w'>
+              <Slide delay={200} left>
+                <hr onAnimationEnd={() => setShow(true)} />
+              </Slide>
+            </div>
+          </div>
+        </Fade>
+      )}
+
+      {show && (
+        <>
+          <Navbar />
+          <div className='Container'>
+            <Home />
+            <About />
+            <Works />
+            <Contact />
+          </div>
+        </>
+      )}
     </div>
   );
 }
