@@ -2,15 +2,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import Style from "./Style.module.scss";
 
-const Navbar = ({ Local }) => {
-  function setLang() {
-    const Lang = Local.getLanguage();
-    if (Lang === "id") {
-      Local.setLanguage("en");
-    } else {
-      Local.setLanguage("id");
-    }
-  }
+const Navbar = () => {
   return (
     <div className={Style.container}>
       <Fade bottom distance={"5rem"} duration={400}>
@@ -24,7 +16,7 @@ const Navbar = ({ Local }) => {
           </div>
           <div className={Style.right}>
             <a href='#Contact'>Contact</a>
-            <p onClick={setLang()}>{Local.getLanguage()}</p>
+            {/* <p></p> */}
           </div>
         </div>
       </Fade>

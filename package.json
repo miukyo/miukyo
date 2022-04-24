@@ -10,7 +10,6 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-localization": "^1.0.19",
     "react-reveal": "^1.2.2",
     "sass": "^1.50.1"
   },

@@ -2,7 +2,7 @@ import React from "react";
 import { Fade } from "react-reveal";
 import Style from "./Style.module.scss";
 
-const Home = ({ Local }) => {
+const Home = () => {
   
   return (
     <>
