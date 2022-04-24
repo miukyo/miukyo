@@ -22,12 +22,12 @@
   display: flex;
   gap: 3rem;
   align-items: center;
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
 }
 
 .center {
-  user-select: none;
-  pointer-events: none;
-  position: absolute;
   text-align: center;
   width: 100%;
   font-size: 30px;
@@ -38,4 +38,7 @@
   display: flex;
   gap: 3rem;
   align-items: center;
+  @media screen and (max-width: 720px) {
+    display: none;
+  }
 }

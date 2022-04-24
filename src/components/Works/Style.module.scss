@@ -21,6 +21,15 @@
     font-family: "Poppins", sans-serif;
     font-size: 20px;
   }
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    & h1 {
+      font-size: 50px;
+    }
+    & a {
+      font-size: 15px;
+    }
+  }
 }
 
 .wrapperP {
@@ -124,7 +133,37 @@
       overflow: hidden;
       .innerimg {
         height: 100%;
-        width: 100%;
+        width: auto;
+      }
+    }
+    @media screen and (max-width: 1200px) {
+      overflow-x: hidden;
+      padding: 1rem 9vw;
+      & .title {
+        max-width: 5rem;
+        & p {
+          font-size: 15px;
+        }
+        & h1 {
+          font-size: 20px;
+        }
+      }
+      & .desc {
+        width: 50vw;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        & p {
+          font-size: 15px;
+        }
+        & h1 {
+          font-size: 13px;
+          line-height: 110%;
+        }
+      }
+      .img {
+        display: none;
       }
     }
   }

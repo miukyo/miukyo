@@ -1,14 +1,18 @@
 .App {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  @media screen and (min-width: 1360px) {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+  overflow-x: hidden;
 }
 
 .Container {
-  grid-column: 2/8;
-  display: none;
+  grid-column: 2/12;
+  // display: none;
   @media screen and (min-width: 1360px) {
-    display: block;
+    grid-column: 2/8;
   }
 }
 

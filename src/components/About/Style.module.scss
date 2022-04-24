@@ -4,6 +4,9 @@
   display: flex;
   align-items: center;
   overflow: hidden;
+  @media screen and (max-width: 1200px) {
+    height: auto;
+  }
 }
 
 .wrapper {
@@ -24,6 +27,23 @@
     -webkit-text-stroke: 1px white;
     -webkit-text-fill-color: transparent;
   }
+  @media screen and (max-width: 1200px) {
+    padding: 4rem 0;
+    & h1 {
+      font-size: 30px;
+      line-height: 95%;
+      margin-bottom: 3rem;
+    }
+    & p {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 90%;
+    }
+    & .stroke {
+      -webkit-text-stroke: 0.5px white;
+      -webkit-text-fill-color: transparent;
+    }
+  }
 }
 
 .foot {
@@ -33,7 +53,4 @@
   display: flex;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
-  
 }
-
-

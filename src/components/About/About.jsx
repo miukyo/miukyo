@@ -1,49 +1,39 @@
 import React from "react";
+import { Fade } from "react-reveal";
 import Style from "./Style.module.scss";
 
 const About = () => {
   return (
     <div data-aos='fade-up' id='About' className={Style.container}>
-      <div className={Style.wrapper}>
-        <h1>about me?</h1>
-        <p data-aos='fade-up' data-aos-delay='100'>
-          a person who likes to{" "}
-          <span
-            data-aos='fade-up'
-            data-aos-delay='200'
-            className={Style.stroke}>
-            design
-          </span>{" "}
-          and
-          <span
-            data-aos='fade-up'
-            data-aos-delay='200'
-            className={Style.stroke}>
-            {" "}
-            code.
-          </span>{" "}
-          also a tech enthusiast. and i want to learn
-          <span
-            data-aos='fade-up'
-            data-aos-delay='200'
-            className={Style.stroke}>
-            {" "}
-            something new
-          </span>{" "}
-          related to technology as its not{" "}
-          <span
-            data-aos='fade-up'
-            data-aos-delay='200'
-            className={Style.stroke}>
-            {" "}
-            too hard.
-          </span>
-        </p>
-      </div>
-      <div className={Style.foot}>
-        <p>About</p>
-        <p>02</p>
-      </div>
+      <Fade bottom distance={"10rem"} cascade duration={400}>
+        <div className={Style.wrapper}>
+          <h1>about me?</h1>
+          <p>
+            a person who likes to
+            <Fade delay={200}>
+              <span className={Style.stroke}> design </span>
+            </Fade>
+            and
+            <Fade delay={200}>
+              <span className={Style.stroke}> code. </span>
+            </Fade>
+            also a tech enthusiast. and i want to learn
+            <Fade delay={200}>
+              <span className={Style.stroke}> something new </span>
+            </Fade>
+            related to technology as its not
+            <Fade delay={200}>
+              <span className={Style.stroke}> too hard. </span>
+            </Fade>
+          </p>
+        </div>
+      </Fade>
+      <Fade bottom distance={"10rem"} duration={400}>
+        <div className={Style.foot}>
+          <p>About</p>
+          <p>02</p>
+        </div>
+      </Fade>
     </div>
   );
 };

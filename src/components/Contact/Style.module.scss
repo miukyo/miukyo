@@ -1,6 +1,5 @@
 .container {
   position: relative;
-  display: flex;
   align-items: center;
   overflow: hidden;
 }
@@ -11,11 +10,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: 1200px) {
+    padding: 4rem 0;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
 .left {
   display: flex;
   gap: 5rem;
+  @media screen and (max-width: 1200px) {
+    gap: 3rem;
+  }
 }
 
 .right {
@@ -33,5 +42,20 @@
     font-size: 25px;
     font-weight: bold;
     line-height: 95%;
+  }
+  @media screen and (max-width: 1200px) {
+    text-align: center;
+    align-items: center;
+    & h1 {
+      font-size: 30px;
+      line-height: 95%;
+      margin-bottom: 1rem;
+    }
+    & p {
+      max-width: unset;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 95%;
+    }
   }
 }
