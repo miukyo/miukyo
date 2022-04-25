@@ -10,7 +10,7 @@
     rgba(0, 0, 0, 0) 10%,
     rgba(26, 26, 26, 1) 100%
   );
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 720px) {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
 }
@@ -20,6 +20,10 @@
   position: absolute;
   @media screen and (max-width: 720px) {
     display: block;
+  }
+  &:active {
+    transform: scale(0.9);
+    transition: transform 0.1s;
   }
 }
 
@@ -52,6 +56,10 @@
     & a {
       font-size: 40px;
       line-height: 95%;
+      &:active {
+        transform: scale(0.9);
+        transition: transform 0.1s;
+      }
     }
   }
   .contentB {
@@ -75,12 +83,16 @@
 }
 
 .visible {
+  visibility: visible;
   transform: translateY(0);
-  transition: transform 0.5s cubic-bezier(0, 1, 0.5, 1);
+  transition: all 0.5s cubic-bezier(0, 1, 0.5, 1);
+  transition-property: transform, visibility;
 }
 .invisible {
+  visibility: hidden;
   transform: translateY(-150%);
-  transition: transform 0.5s cubic-bezier(0.5, 0, 1, 0);
+  transition: all 0.5s cubic-bezier(0.5, 0, 1, 0);
+  transition-property: transform, visibility;
 }
 
 .wrapper {
@@ -105,13 +117,25 @@
   @media screen and (max-width: 720px) {
     display: none;
   }
+  & a {
+    &:active {
+      transform: scale(0.9);
+      transition: transform 0.1s;
+    }
+  }
 }
 
 .center {
-  text-align: center;
   width: 100%;
+  justify-content: center;
+  display: flex;
   font-size: 30px;
-
+  & a {
+    &:active {
+      transform: scale(0.95);
+      transition: transform 0.1s;
+    }
+  }
 }
 
 .right {
@@ -122,7 +146,10 @@
   @media screen and (max-width: 720px) {
     display: none;
   }
-  & p {
-    cursor: pointer;
+  & a {
+    &:active {
+      transform: scale(0.9);
+      transition: transform 0.1s;
+    }
   }
 }

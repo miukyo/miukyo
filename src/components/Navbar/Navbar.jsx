@@ -3,28 +3,24 @@ import { Fade, Slide } from "react-reveal";
 import Style from "./Style.module.scss";
 
 const Navbar = () => {
-  const [show, setShow] = React.useState({
-    a: false,
-    b: false,
-  });
+  const [show, setShow] = React.useState(false);
   return (
     <div className={Style.container}>
       <div
-        onTransitionEnd={() => setShow({ ...show, b: !show.b })}
         className={`${Style.wrapperMobile} ${
-          show.a ? Style.visible : Style.invisible
+          show ? Style.visible : Style.invisible
         }`}>
         <span
-          className={`${Style.end} ${show.a ? Style.visible : Style.invisible}`}
+          className={`${Style.end} ${show ? Style.visible : Style.invisible}`}
         />
         <div className={Style.content}>
-          <a onClick={() => setShow({ ...show, a: !show.a })} href='#About'>
+          <a onClick={() => setShow(!show)} href='#About'>
             About
           </a>
-          <a onClick={() => setShow({ ...show, a: !show.a })} href='#Works'>
+          <a onClick={() => setShow(!show)} href='#Works'>
             Works
           </a>
-          <a onClick={() => setShow({ ...show, a: !show.a })} href='#Contact'>
+          <a onClick={() => setShow(!show)} href='#Contact'>
             Contact
           </a>
         </div>
@@ -39,7 +35,7 @@ const Navbar = () => {
           <button
             aria-label='Menu'
             className={Style.mobilebtn}
-            onClick={() => setShow({ ...show, a: !show.a })}>
+            onClick={() => setShow(!show)}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='30'

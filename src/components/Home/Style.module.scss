@@ -23,6 +23,7 @@
     font-size: 90px;
     line-height: 95%;
     @media screen and (max-width: 1360px) {
+      white-space: nowrap;
       font-size: 8.5vw;
     }
   }
@@ -36,7 +37,9 @@
   bottom: -3rem;
   z-index: 2;
   @media screen and (max-width: 1360px) {
-    left: -30rem;
+    height: 100%;
+    // bottom: -10vh;
+    left: -50vh;
   }
 }
 
@@ -48,6 +51,7 @@
   position: absolute;
   font-family: "Poppins", sans-serif;
   text-align: right;
+  white-space: nowrap;
   -webkit-text-stroke: 1px white;
   -webkit-text-fill-color: transparent;
   & h1 {

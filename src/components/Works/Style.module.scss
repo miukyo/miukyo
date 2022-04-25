@@ -23,8 +23,9 @@
   }
   @media screen and (max-width: 1200px) {
     flex-direction: column;
+    white-space: nowrap;
     & h1 {
-      font-size: 50px;
+      font-size: 40px;
     }
     & a {
       font-size: 15px;
