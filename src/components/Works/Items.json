@@ -4,7 +4,7 @@
     "status": "active",
     "name": "Plain",
     "shortdesc": "A image social media based website so you can share your edits or arts to peoples (still in development)",
-    "img": "https://cdn.discordapp.com/attachments/465842987503452170/966965686553428008/unknown.png",
+    "img": "assets/plain.webp",
     "desc": "",
     "link": "",
     "createdAt": "2020-05-20T18:20:20.000Z"
@@ -13,8 +13,8 @@
     "id": 2,
     "status": "active",
     "name": "Aniway",
-    "shortdesc": "Discontinued because using illegal sources, now its only personal usage and not for public",
-    "img": "https://media.discordapp.net/attachments/465842987503452170/966962715803398214/metatag.jpg?width=892&height=467",
+    "shortdesc": "Anime Streaming Website | Discontinued because using illegal sources, only for educational purposes",
+    "img": "assets/aniway.webp",
     "desc": "",
     "link": "",
     "createdAt": "2020-05-20T18:20:20.000Z"

@@ -31,7 +31,7 @@ const Works = () => {
                       <h1>{item.shortdesc}</h1>
                     </div>
                     <div className={Style.img}>
-                      <img className={Style.innerimg} src={item.img} />
+                      <img alt="" className={Style.innerimg} src={item.img} />
                     </div>
                   </>
                 ) : (

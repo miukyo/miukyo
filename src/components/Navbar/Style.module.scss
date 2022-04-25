@@ -10,6 +10,9 @@
     rgba(0, 0, 0, 0) 10%,
     rgba(26, 26, 26, 1) 100%
   );
+  @media screen and (max-width: 760px) {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
 }
 
 .mobilebtn {
@@ -52,6 +55,7 @@
     }
   }
   .contentB {
+    opacity: 0.1;
     position: absolute;
     height: 100vh;
     width: 100%;
@@ -88,6 +92,9 @@
   padding: 1rem 0;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
+  @media screen and (max-width: 720px) {
+    grid-column: 2/12;
+  }
 }
 
 .left {
@@ -104,6 +111,7 @@
   text-align: center;
   width: 100%;
   font-size: 30px;
+
 }
 
 .right {

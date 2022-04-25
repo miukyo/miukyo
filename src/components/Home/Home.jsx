@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <div id='Home' className={Style.container}>
         <Fade bottom distance={"10rem"} duration={500}>
-          <img className={Style.me} src='assets/Me.svg' />
+          <img alt='' className={Style.me} src='assets/Me.png' />
         </Fade>
         <Fade bottom distance={"10rem"} cascade duration={400}>
           <div className={Style.wrapper}>

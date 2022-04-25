@@ -18,7 +18,7 @@ function App() {
             <p>Miukyo</p>
             <p className='m'>Miukyo</p>
             <div className='w'>
-              <Slide delay={200} left>
+              <Slide left>
                 <hr onAnimationEnd={() => setShow(true)} />
               </Slide>
             </div>

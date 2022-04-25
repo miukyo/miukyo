@@ -16,7 +16,7 @@
     font-size: 60px;
     line-height: 95%;
     @media screen and (max-width: 1360px) {
-      font-size: 5.5vw;
+      font-size: 6.5vw;
     }
   }
   & h2 {
@@ -54,6 +54,7 @@
     font-size: 90px;
     line-height: 95%;
     @media screen and (max-width: 1360px) {
+      white-space: nowrap;
       font-size: 9vw;
     }
   }
@@ -62,6 +63,7 @@
     line-height: 95%;
     @media screen and (max-width: 1360px) {
       font-size: 10vw;
+      white-space: nowrap;
     }
   }
 }
@@ -69,7 +71,7 @@
 .foot {
   position: absolute;
   width: 100%;
-  bottom: 5rem;
+  bottom: 3rem;
   display: flex;
   justify-content: space-between;
   font-family: "Poppins", sans-serif;

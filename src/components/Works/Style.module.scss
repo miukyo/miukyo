@@ -73,6 +73,7 @@
     opacity: 0.4;
     margin-top: -1px;
     transition: opacity 0.2s;
+    max-width: 100vw;
     &:first-child {
       margin-top: 35px;
     }
@@ -174,7 +175,6 @@
   // position: absolute;
   align-self: flex-end;
   width: 100%;
-  left: 0;
   bottom: 0;
   display: flex;
   justify-content: space-between;
