@@ -28,7 +28,7 @@ export function Plain() {
       tempus diam urna sed arcu. Aenean ac magna facilisis, mollis arcu vel,
       fermentum felis. In tincidunt, dui vel gravida placerat, lectus risus
       facilisis velit, quis semper odio nunc vel diam.
-      <img src='/assets/plain/1.png' />
+      <img src='/assets/plain/1.jpg' />
       Ut pretium nisi ac placerat posuere. Donec dui mauris, venenatis ut velit
       vitae, congue scelerisque magna. Quisque id ornare justo. Fusce ultricies
       sagittis nisl sit amet vulputate. Donec sed neque metus. Morbi efficitur
@@ -40,7 +40,7 @@ export function Plain() {
       luctus velit et ligula rhoncus, volutpat ornare justo placerat. Aenean
       cursus sodales erat, tincidunt efficitur enim facilisis efficitur.
       Maecenas a luctus libero, faucibus
-      <img src='/assets/plain/2.png' />
+      <img src='/assets/plain/2.jpg' />
       consequat ipsum. Vestibulum placerat, neque pellentesque posuere feugiat,
       ligula massa tincidunt leo, eu elementum sem massa a metus. Etiam
       convallis congue nibh efficitur semper. Integer tempor tellus pharetra
@@ -52,7 +52,7 @@ export function Plain() {
       facilisis sapien. Curabitur sapien est, semper at pellentesque ac, iaculis
       in mauris. Mauris pulvinar in odio ut ultrices. Aenean elit neque, cursus
       sit amet aliquet rhoncus, aliquet a diam.
-      <img src='/assets/plain/3.png' />
+      <img src='/assets/plain/3.jpg' />
       Ut molestie felis vitae mauris tincidunt, quis varius mauris sagittis.
       Quisque quis quam cursus, maximus odio vel, volutpat magna. Integer
       lobortis massa eu odio semper, vel malesuada mauris placerat. Sed
@@ -60,7 +60,7 @@ export function Plain() {
       purus, scelerisque non fringilla nec, sagittis at urna. Sed ac risus
       finibus, lobortis ligula quis, fringilla dui. Vestibulum feugiat luctus
       dictum. Donec dignissim libero dolor, sit amet fermentum arcu commodo at.
-      <img src='/assets/plain/4.png' />
+      <img src='/assets/plain/4.jpg' />
       Thank you.
     </p>
   );
@@ -86,7 +86,7 @@ export function Aniway() {
       tempus diam urna sed arcu. Aenean ac magna facilisis, mollis arcu vel,
       fermentum felis. In tincidunt, dui vel gravida placerat, lectus risus
       facilisis velit, quis semper odio nunc vel diam.
-      <img src='/assets/aniway/1.png' />
+      <img src='/assets/aniway/1.jpg' />
       Ut pretium nisi ac placerat posuere. Donec dui mauris, venenatis ut velit
       vitae, congue scelerisque magna. Quisque id ornare justo. Fusce ultricies
       sagittis nisl sit amet vulputate. Donec sed neque metus. Morbi efficitur
@@ -98,7 +98,7 @@ export function Aniway() {
       luctus velit et ligula rhoncus, volutpat ornare justo placerat. Aenean
       cursus sodales erat, tincidunt efficitur enim facilisis efficitur.
       Maecenas a luctus libero, faucibus
-      <img src='/assets/aniway/2.png' />
+      <img src='/assets/aniway/2.jpg' />
       consequat ipsum. Vestibulum placerat, neque pellentesque posuere feugiat,
       ligula massa tincidunt leo, eu elementum sem massa a metus. Etiam
       convallis congue nibh efficitur semper. Integer tempor tellus pharetra
@@ -110,7 +110,7 @@ export function Aniway() {
       facilisis sapien. Curabitur sapien est, semper at pellentesque ac, iaculis
       in mauris. Mauris pulvinar in odio ut ultrices. Aenean elit neque, cursus
       sit amet aliquet rhoncus, aliquet a diam.
-      <img src='/assets/aniway/3.png' />
+      <img src='/assets/aniway/3.jpg' />
       Ut molestie felis vitae mauris tincidunt, quis varius mauris sagittis.
       Quisque quis quam cursus, maximus odio vel, volutpat magna. Integer
       lobortis massa eu odio semper, vel malesuada mauris placerat. Sed
@@ -118,7 +118,7 @@ export function Aniway() {
       purus, scelerisque non fringilla nec, sagittis at urna. Sed ac risus
       finibus, lobortis ligula quis, fringilla dui. Vestibulum feugiat luctus
       dictum. Donec dignissim libero dolor, sit amet fermentum arcu commodo at.
-      <img src='/assets/aniway/4.png' />
+      <img src='/assets/aniway/4.jpg' />
       Thank you.
     </p>
   );
