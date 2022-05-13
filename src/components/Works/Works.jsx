@@ -1,7 +1,8 @@
 import React from "react";
 import Style from "./Style.module.scss";
-import Items from "./Items.json";
+import Items from "../Items.json";
 import { Fade } from "react-reveal";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Works = () => {
   return (
@@ -19,9 +20,12 @@ const Works = () => {
           <span className={Style.shadow} />
           <div className={Style.list}>
             {Items.map((item, i) => (
-              <div key={i} className={Style.listContent}>
+              <>
                 {item.status === "active" ? (
-                  <>
+                  <Link
+                    to={`/p/${item.slug}`}
+                    key={i}
+                    className={Style.listContent}>
                     <div className={Style.title}>
                       <p>0{item.id}</p>
                       <h1>{item.name}</h1>
@@ -31,15 +35,17 @@ const Works = () => {
                       <h1>{item.shortdesc}</h1>
                     </div>
                     <div className={Style.img}>
-                      <img alt="" className={Style.innerimg} src={item.img} />
+                      <img alt='' className={Style.innerimg} src={item.img} />
                     </div>
-                  </>
+                  </Link>
                 ) : (
-                  <div className={Style.coming}>
-                    <h1>Coming Soon</h1>
+                  <div key={i} className={Style.listContent}>
+                    <div className={Style.coming}>
+                      <h1>Coming Soon</h1>
+                    </div>
                   </div>
                 )}
-              </div>
+              </>
             ))}
           </div>
         </div>

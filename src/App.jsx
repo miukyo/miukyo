@@ -6,6 +6,8 @@ import Home from "./components/Home/Home";
 import Works from "./components/Works/Works";
 import Navbar from "./components/Navbar/Navbar";
 import { Fade, Slide } from "react-reveal";
+import { Route, Routes } from "react-router-dom";
+import Details from "./components/Details/Details";
 
 function App() {
   const [show, setShow] = React.useState(false);
@@ -29,12 +31,19 @@ function App() {
       {show && (
         <>
           <Navbar />
-          <div className='Container'>
-            <Home />
-            <About />
-            <Works />
-            <Contact />
-          </div>
+          <Routes>
+            <Route
+              path='/'
+              element={
+                <div className='Container'>
+                  <Home />
+                  <About />
+                  <Works />
+                  <Contact />
+                </div>
+              }></Route>
+            <Route path='/p/:id' element={<Details />}></Route>
+          </Routes>
         </>
       )}
     </div>

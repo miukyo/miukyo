@@ -11,9 +11,11 @@ const Home = () => {
         </Fade>
         <Fade bottom distance={"10rem"} cascade duration={400}>
           <div className={Style.wrapper}>
-            <h1>start where you are</h1>
-            <h2>use what you have</h2>
-            <h2>do what you can</h2>
+            <Fade bottom distance={"10rem"} cascade duration={400}>
+              <h1>start where you are</h1>
+              <h2>use what you have</h2>
+              <h2>do what you can</h2>
+            </Fade>
           </div>
         </Fade>
         <Fade bottom distance={"10rem"} cascade duration={400}>

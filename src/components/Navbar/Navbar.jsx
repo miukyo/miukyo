@@ -1,5 +1,6 @@
 import React from "react";
 import { Fade, Slide } from "react-reveal";
+import { HashLink as Link } from "react-router-hash-link";
 import Style from "./Style.module.scss";
 
 const Navbar = () => {
@@ -14,15 +15,15 @@ const Navbar = () => {
           className={`${Style.end} ${show ? Style.visible : Style.invisible}`}
         />
         <div className={Style.content}>
-          <a onClick={() => setShow(!show)} href='#About'>
+          <Link onClick={() => setShow(!show)} to='/#About'>
             About
-          </a>
-          <a onClick={() => setShow(!show)} href='#Works'>
+          </Link>
+          <Link onClick={() => setShow(!show)} to='/#Works'>
             Works
-          </a>
-          <a onClick={() => setShow(!show)} href='#Contact'>
+          </Link>
+          <Link onClick={() => setShow(!show)} to='/#Contact'>
             Contact
-          </a>
+          </Link>
         </div>
         <div className={Style.contentB}>
           <p>About</p>
@@ -46,14 +47,16 @@ const Navbar = () => {
             </svg>
           </button>
           <div className={Style.left}>
-            <a href='#About'>About</a>
-            <a href='#Works'>Works</a>
+            <Link to='/#About'>About</Link>
+            <Link to='/#Works'>Works</Link>
           </div>
           <div className={Style.center}>
-            <a href='#Home'>Miukyo</a>
+            <Link onClick={() => setShow(false)} to='/#Home'>
+              Miukyo
+            </Link>
           </div>
           <div className={Style.right}>
-            <a href='#Contact'>Contact</a>
+            <Link to='/#Contact'>Contact</Link>
             {/* <p></p> */}
           </div>
         </div>
