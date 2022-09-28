@@ -5,6 +5,8 @@ export default function Data({ name }) {
     return <Plain />;
   } else if (name === "Aniway") {
     return <Aniway />;
+  } else if (name === "Biary") {
+    return <Biary />;
   }
 }
 
@@ -119,6 +121,31 @@ export function Aniway() {
       finibus, lobortis ligula quis, fringilla dui. Vestibulum feugiat luctus
       dictum. Donec dignissim libero dolor, sit amet fermentum arcu commodo at.
       <img src='/assets/aniway/4.jpg' />
+      Thank you.
+    </p>
+  );
+}
+
+export function Biary() {
+  return (
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel quam
+      odio. Sed interdum nibh sodales volutpat maximus. Suspendisse bibendum
+      vulputate tortor, ut posuere nunc commodo nec. Sed scelerisque, mauris non
+      commodo eleifend, enim ipsum posuere metus, eu sagittis lectus purus
+      rhoncus orci. Duis risus lacus, gravida molestie porttitor id, bibendum
+      egestas velit. Nullam at urna ut ante consectetur tincidunt sed vitae
+      libero. Nunc sit amet mollis est. Praesent lectus lacus, dictum at nisl
+      nec, ultrices hendrerit ante. Etiam sit amet libero ipsum. Morbi a mi
+      vitae lectus vehicula ullamcorper eu nec nulla. Donec volutpat nibh vel
+      pretium fringilla. Pellentesque pellentesque nisl et urna tristique
+      semper. Vestibulum sagittis risus in euismod pulvinar. Maecenas at est sed
+      diam maximus pulvinar at eget ligula. Quisque id quam eget dolor ultrices
+      sagittis in vel dui. Ut lobortis nisl quis commodo porttitor. Quisque
+      semper, lectus congue laoreet pharetra, neque est consectetur augue, quis
+      tempus diam urna sed arcu. Aenean ac magna facilisis, mollis arcu vel,
+      fermentum felis. In tincidunt, dui vel gravida placerat, lectus risus
+      facilisis velit, quis semper odio nunc vel diam.
       Thank you.
     </p>
   );

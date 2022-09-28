@@ -11,7 +11,8 @@ const Works = () => {
         <Fade bottom distance={"10rem"} duration={400}>
           <div className={Style.top}>
             <h1>SELECTED WORKS</h1>
-            <a href='#'>VIEW ALL WORKS &gt;</a>
+            {/* <a href='#'>VIEW ALL WORKS &gt;</a> */}
+            <p></p>
           </div>
         </Fade>
       </div>

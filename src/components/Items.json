@@ -4,7 +4,7 @@
     "status": "active",
     "name": "Plain",
     "slug": "plain",
-    "shortdesc": "A image social media based website so you can share your edits or arts to peoples (still in development)",
+    "shortdesc": "Image sharing based social media website (still in development)",
     "img": "/assets/plain.webp",
     "banner": "/assets/plainB.jpg",
     "link": "",
@@ -16,17 +16,24 @@
     "status": "active",
     "name": "Aniway",
     "slug": "aniway",
-    "shortdesc": "Anime Streaming Website | Discontinued because using illegal sources, only for educational purposes (Aku buka khusus buat repiewnya bang dea :P)",
+    "shortdesc": "Anime Streaming Website | Discontinued because using illegal sources, only for educational purposes",
     "img": "/assets/aniway.webp",
     "banner": "/assets/aniwayB.jpg",
-    "link": "https://aniway.vercel.app",
-    "sourcelink": "https://github.com/miukyo/aniway",
+    "link": "",
+    "sourcelink": "",
     "createdAt": "2020-05-20T18:20:20.000Z"
   },
   {
     "id": 3,
-    "status": "coming",
-    "name": "Dummy"
+    "status": "active",
+    "name": "Biary",
+    "slug": "biary",
+    "shortdesc": "Twitter like social media website (also still in development)",
+    "img": "/assets/biary.webp",
+    "banner": "/assets/biaryB.jpg",
+    "link": "",
+    "sourcelink": "",
+    "createdAt": "2020-05-20T18:20:20.000Z"
   },
   {
     "id": 4,
