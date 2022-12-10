@@ -32,7 +32,7 @@
 - ❓ Ask me about anything. I would like to have more friends  
   
 
-- ⚡ Fun fact: I don't drink coffee but teatea  
+- ⚡ Fun fact: I don't drink coffee but tea
 
 
 
