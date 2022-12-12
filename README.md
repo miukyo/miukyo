@@ -26,7 +26,7 @@
 
 
 
-- 🌱 I’m currently learning [Vue.Js](vuejs.org), [React](https://reactjs.org), [Svelte](https://svelte.dev/)
+- 🌱 I’m currently learning [Vue](https://vuejs.org), [React](https://reactjs.org), [Svelte](https://svelte.dev/)
   
 
 - ❓ Ask me about anything. I would like to have more friends  
