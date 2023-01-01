@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-neutral-200;
+  font-family: "InterVariable", sans-serif;
+}
+
+* {
+  /* cursor: none; */
+  scrollbar-width: none;
+}
+
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  @apply bg-neutral-900 text-white;
+}
+
+.view {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.view::-webkit-scrollbar {
+  display: none;
+}
+
+/* button {
+  cursor: none;
+} */
