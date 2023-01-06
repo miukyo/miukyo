@@ -8,7 +8,7 @@
 
 body {
   @apply bg-neutral-200;
-  font-family: "InterVariable", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 * {
