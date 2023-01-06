@@ -243,12 +243,12 @@ onMounted(() => {
   @apply flex h-screen lg:h-[calc(100vh-2.5rem)] w-full flex-col overflow-y-scroll bg-neutral-200;
 }
 
-.noise {
+/* .noise {
   @apply pointer-events-none fixed -top-1/2 -left-1/2 -bottom-1/2 -right-1/2 z-[99] h-[200vh] w-[200vw];
   background: url("nnnoise.svg");
   background-repeat: repeat;
   animation: 0.2s m linear infinite;
-}
+} */
 
 .navbar {
   @apply sticky top-0 left-0 z-30 flex h-[100px] w-full flex-shrink-0 items-center justify-center border-b border-neutral-400 bg-neutral-200 bg-opacity-90 backdrop-blur-sm;

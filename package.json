@@ -8,13 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-mono": "^4.5.13",
-    "@fontsource/inter": "^4.5.14",
     "animejs": "^3.2.1",
     "autoprefixer": "^10.4.13",
-    "locomotive-scroll": "^4.1.4",
     "postcss": "^8.4.20",
-    "swiper": "^8.4.5",
     "tailwindcss": "^3.2.4",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
