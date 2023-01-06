@@ -1,6 +1,5 @@
 <div align="center"><img src="https://media.tenor.com/461aa5n4tXgAAAAd/horimiya-miyamura.gif" align="center" style="width: 50%" /></div>
 
-
 # <div align="center">Hey 👋, I'm Miukyo</div>  
   
 
