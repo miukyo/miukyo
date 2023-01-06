@@ -1,5 +1,4 @@
 <script setup>
-import "@fontsource/Inter/variable.css";
 import { RouterLink, RouterView } from "vue-router";
 import { reactive, ref, Transition, watch, onMounted, onUpdated } from "vue";
 import anime from "animejs";
