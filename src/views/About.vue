@@ -23,96 +23,79 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="About" class="grid h-full grid-cols-2 px-14">
-    <div class="my-14 grid grid-flow-row">
-      <div>
-        <h1 class="text-8xl font-bold tracking-tighter">About me</h1>
-        <p class="mt-5 text-justify font-bold leading-snug tracking-tight text-neutral-700">
-          Hi There! I’m Zaid, but usually go by “Miukyo” online.
-          <br />
-          <span class="block h-3" />
-          I'm specialize in graphic design and web programming with a passion
-          for creating beautiful and stunning designs. i have been specialize in
-          the field for 2 years and have already gained a great deal of
-          experience and knowledge.
-          <br />
-          <span class="block h-3" />
-          I'm constantly looking for ways to improve my skills and stay
-          up-to-date with the latest trends in designs and technology. I am a
-          hardworking and dedicated individual who is eager to learn and grow in
-          my field. I am excited to bring my passion and expertise to any
-          project and help create successful and engaging online experiences.
-        </p>
-      </div>
-      <!-- <h1 class="text-2xl font-bold tracking-tighter mt-5">Experiences</h1>
-      <div class="flex flex-col text-neutral-700">
-        <div class="grid grid-cols-3 font-bold text-sm ">
-          <p>Yume Reality Entertaiment</p>
-          <p class="place-self-center">Graphic & Product Designer</p>
-          <p class="place-self-end">"20—22</p>
-        </div>
-        <div class="grid grid-cols-3 font-bold text-sm">
-          <p>Freelance</p>
-          <p></p>
-          <p class="place-self-end">"19—22</p>
-        </div>
-      </div>
-      <h1 class="text-2xl font-bold tracking-tighter mt-5">Things i use</h1>
-      <div class="grid grid-cols-4 font-bold text-sm text-neutral-700">
-        <p>Visual Studio Code</p>
-        <p>Figma</p>
-        <p>Photoshop</p>
-        <p>Awwwards</p>
-        <p>Dribbble</p>
-        <p>Webflow</p>
-        <p>And much more...</p>
-      </div> -->
-      <div class="place-self-center">
-        <h1 class="text-2xl font-bold tracking-tighter">Socials</h1>
-        <div class="grid grid-cols-4 text-sm font-bold text-neutral-700">
-          <a target="_blank" href="/" class="w-fit transition-colors hover:text-black">
-            Instagram
-          </a>
-          <a target="_blank" href="/" class="w-fit transition-colors hover:text-black">
-            Twitter
-          </a>
-          <a target="_blank" href="/" class="w-fit transition-colors hover:text-black">
-            Facebook
-          </a>
-          <a target="_blank" href="/" class="w-fit transition-colors hover:text-black">
-            Discord
-          </a>
-          <a target="_blank" href="/" class="w-fit transition-colors hover:text-black">
-            Github
-          </a>
-        </div>
-        <div class="mt-3 grid grid-cols-2">
-          <p class="text-sm font-bold text-neutral-700">
-            — I'm currently looking for new remote position as a Front-End
-            Developer or Graphic Desinger. I'm looking forward to have amazing
-            project with you!
+  <div id="About" class="px-5 lg:px-14">
+    <h1 class="mt-14 text-6xl lg:text-8xl font-bold tracking-tighter">About me</h1>
+    <div class="grid grid-flow-row lg:grid-cols-2">
+      <div class="grid grid-flow-row order-2 lg:order-none">
+        <div>
+          <p class="lg:mt-5 text-justify font-bold leading-snug tracking-tight text-neutral-700">
+            Hi There! I’m Zaid, but usually go by “Miukyo” online.
             <br />
             <span class="block h-3" />
-            Last Update, 12/30/22
+            I'm specialize in graphic design and web programming with a passion
+            for creating beautiful and stunning designs. i have been specialize in
+            the field for 2 years and have already gained a great deal of
+            experience and knowledge.
+            <br />
+            <span class="block h-3" />
+            I'm constantly looking for ways to improve my skills and stay
+            up-to-date with the latest trends in designs and technology. I am a
+            hardworking and dedicated individual who is eager to learn and grow in
+            my field. I am excited to bring my passion and expertise to any
+            project and help create successful and engaging online experiences.
           </p>
-          <div class="grid place-items-center">
-            <button
-              class="rounded-full border border-neutral-500 px-4 py-1 font-bold text-neutral-700 transition-colors hover:bg-neutral-700 hover:text-white">
-              contact@miukyo.my.id
-            </button>
+        </div>
+        <div class="mt-10 lg:mt-0 lg:place-self-center">
+          <h1 class="text-2xl font-bold tracking-tighter">Socials</h1>
+          <div class="flex justify-between flex-wrap lg:grid grid-cols-4 text-sm font-bold text-neutral-700">
+            <a target="_blank" href="https://www.instagram.com/_miu.kyo"
+              class="w-fit transition-colors hover:text-black">
+              Instagram
+            </a>
+            <a target="_blank" href="https://twitter.com/miuky0" class="w-fit transition-colors hover:text-black">
+              Twitter
+            </a>
+            <a target="_blank" href="https://www.facebook.com/Miuky0/" class="w-fit transition-colors hover:text-black">
+              Facebook
+            </a>
+            <a target="_blank" href="https://discord.com/users/395407295867256833"
+              class="w-fit transition-colors hover:text-black">
+              Discord
+            </a>
+            <a target="_blank" href="https://github.com/miukyo" class="w-fit transition-colors hover:text-black">
+              Github
+            </a>
+          </div>
+          <div class="mt-3 grid lg:grid-cols-2">
+            <p class="text-sm font-bold text-neutral-700">
+              — I'm currently looking for new remote position as a Front-End
+              Developer or Graphic Desinger. I'm looking forward to have amazing
+              project with you!
+              <br />
+              <span class="block h-3" />
+              Last Update, 12/30/22
+            </p>
+            <div class="grid place-items-center my-10 lg:my-0">
+              <a href="mailto:contact@miukyo.my.id"
+                class="rounded-full border border-neutral-500 px-4 py-1 font-bold text-neutral-700 transition-colors hover:bg-neutral-700 hover:text-white">
+                contact@miukyo.my.id
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="ml-10 mt-12 h-[700px] overflow-hidden rounded object-cover">
-      <img src="saya.jpg" alt="me" class="rounded" />
+      <div class="overflow-hidden my-5 lg:my-0 lg:ml-10 lg:-mt-20">
+        <img src="..\assets\img\saya.jpg" alt="me" class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
+      </div>
     </div>
   </div>
 </template>
 
 <style>
-#About h1,#About p,#About a,#About button {
+#About h1,
+#About p,
+#About a,
+#About button {
   @apply relative z-10
 }
-
 </style>

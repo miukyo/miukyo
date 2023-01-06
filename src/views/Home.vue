@@ -1,5 +1,4 @@
 <script setup>
-import { Icon } from "@iconify/vue";
 import { ref, onMounted } from "vue";
 import anime from "animejs";
 
@@ -25,8 +24,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="Home" class="relative flex h-full w-full items-center justify-end">
-    <div class="pointer-events-none absolute left-[100px] bottom-0 scale-[1]">
+  <div id="Home" class="relative flex h-full w-full items-center justify-center lg:justify-end">
+    <div class="pointer-events-none absolute -left-[500px] scale-[100vh] lg:left-[100px] bottom-0 origin-bottom-left">
       <svg width="946" height="842" viewBox="0 0 946 842" fill="none" class="stroke-neutral-500"
         xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_61_16)">
@@ -41,17 +40,18 @@ onMounted(() => {
         </defs>
       </svg>
     </div>
-    <div class="mr-[10vw] flex flex-col anim">
-      <p class="relative text-6xl font-bold leading-[0.95] tracking-tighter">
+    <div class="lg:mr-[10vw] flex flex-col anim">
+      <p class="relative text-5xl lg:text-6xl text-center lg:text-left font-bold leading-[0.95] tracking-tighter">
         Digital Universe
         <br />
         Contributor
+        <br class="block lg:hidden" />
         <span class="text-4xl">ヾ(≧▽≦*)o</span>
       </p>
       <!-- <span class="block h-px mt-10 mb-2 bg-black w-full" /> -->
-      <p class="mt-5 flex items-center justify-between gap-3 font-bold tracking-tighter">
+      <p class="mt-5 absolute left-0 text-sm lg:text-base lg:relative w-full bottom-5 flex flex-col lg:flex-row items-center justify-between lg:gap-3 font-bold tracking-tighter">
         <span>Are you curious about me?</span>
-        <span class="mt-1 h-px flex-grow bg-black"></span>
+        <span class="mt-1 h-px flex-grow bg-black hidden lg:block"></span>
         <RouterLink to="/about" class="group">
           <span class="relative">
             Learn more
