@@ -24,11 +24,13 @@ onMounted(() => {
 
 <template>
   <div id="About" class="px-5 lg:px-14">
-    <h1 class="mt-14 text-6xl lg:text-8xl font-bold tracking-tighter">About me</h1>
+    <h1
+      class="mt-8 lg:mt-14 text-7xl text-center lg:text-start lg:text-[10rem] font-bold tracking-tight font-con">
+      ABOUT ME</h1>
     <div class="grid grid-flow-row lg:grid-cols-2">
       <div class="grid grid-flow-row order-2 lg:order-none">
         <div>
-          <p class="lg:mt-5 text-justify font-bold leading-snug tracking-tight text-neutral-700">
+          <p class="text-justify font-medium leading-snug tracking-tight text-neutral-700">
             Hi There! I’m Zaid, but usually go by “Miukyo” online.
             <br />
             <span class="block h-3" />
@@ -46,8 +48,8 @@ onMounted(() => {
           </p>
         </div>
         <div class="mt-10 lg:mt-0 lg:place-self-center">
-          <h1 class="text-2xl font-bold tracking-tighter">Socials</h1>
-          <div class="flex justify-between flex-wrap lg:grid grid-cols-4 text-sm font-bold text-neutral-700">
+          <!-- <h1 class="text-5xl font-bold tracking-tight font-con">SOCIALS</h1> -->
+          <div class="flex justify-between flex-wrap lg:grid grid-cols-5 mt-2 text-sm font-bold text-neutral-700">
             <a target="_blank" href="https://www.instagram.com/_miu.kyo"
               class="w-fit transition-colors hover:text-black">
               Instagram
@@ -67,9 +69,9 @@ onMounted(() => {
             </a>
           </div>
           <div class="mt-3 grid lg:grid-cols-2">
-            <p class="text-sm font-bold text-neutral-700">
+            <p class="text-sm font-medium text-neutral-700 text-justify lg:text-start">
               — I'm currently looking for new remote position as a Front-End
-              Developer or Graphic Desinger. I'm looking forward to have amazing
+              Developer or Graphic Designer. I'm looking forward to have amazing
               project with you!
               <br />
               <span class="block h-3" />
@@ -77,15 +79,16 @@ onMounted(() => {
             </p>
             <div class="grid place-items-center my-10 lg:my-0">
               <a href="mailto:contact@miukyo.my.id"
-                class="rounded-full border border-neutral-500 px-4 py-1 font-bold text-neutral-700 transition-colors hover:bg-neutral-700 hover:text-white">
+                class="rounded-full border border-neutral-500 px-4 py-1 font-medium text-neutral-700 transition-colors hover:bg-neutral-700 hover:text-white">
                 contact@miukyo.my.id
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="overflow-hidden my-5 lg:my-0 lg:ml-10 lg:-mt-20">
-        <img src="..\assets\img\saya.jpg" alt="me" class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
+      <div class="overflow-hidden my-5 lg:my-0 lg:ml-10 lg:-mt-36">
+        <img src="..\assets\img\saya.jpg" alt="me"
+          class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
       </div>
     </div>
   </div>
