@@ -24,8 +24,7 @@ onMounted(() => {
 
 <template>
   <div id="About" class="px-5 lg:px-14">
-    <h1
-      class="mt-8 lg:mt-14 text-7xl text-center lg:text-start lg:text-[10rem] font-bold tracking-tight font-con">
+    <h1 class="mt-8 lg:mt-14 text-7xl text-center lg:text-start lg:text-[10rem] font-bold tracking-tight font-con">
       ABOUT ME</h1>
     <div class="grid grid-flow-row lg:grid-cols-2">
       <div class="grid grid-flow-row order-2 lg:order-none">
@@ -87,7 +86,7 @@ onMounted(() => {
         </div>
       </div>
       <div class="overflow-hidden my-5 lg:my-0 lg:ml-10 lg:-mt-36">
-        <img src="..\assets\img\saya.jpg" alt="me"
+        <img src="../assets/saya.jpg" alt="me"
           class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
       </div>
     </div>

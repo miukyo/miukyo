@@ -1,34 +1,26 @@
 [
   {
     "id": 0,
-    "title": "Tsuyu Hortenshia",
+    "title": "Tsuyu Hortenshia Stream Overlay",
     "createdAt": "2021",
-    "type": "Stream Overlay",
-    "vid": "https://unsplash.it/640/360?random=1",
-    "image": "https://unsplash.it/640/360?random=2"
+    "type": "Graphic Design",
+    "vid": "worksAssets/w0/vid.webm",
+    "image": "worksAssets/w0/img.webp"
+  },
+  {
+    "id": 1,
+    "title": "Yume Reality Website",
+    "createdAt": "2022",
+    "type": "Website Development",
+    "vid": "worksAssets/w1/vid.webm",
+    "image": "worksAssets/w1/img.webp"
   },
   {
     "id": 2,
-    "title": "Nekoyama Sena",
+    "title": "Nekoyama Sena Stream Overlay",
     "createdAt": "2022",
-    "type": "Stream Overlay",
-    "vid": "https://unsplash.it/640/360?random=3",
-    "image": "https://unsplash.it/640/360?random=4"
-  },
-  {
-    "id": 3,
-    "title": "Kawaki Nana",
-    "createdAt": "2022",
-    "type": "Stream Overlay",
-    "vid": "https://unsplash.it/640/360?random=5",
-    "image": "https://unsplash.it/640/360?random=6"
-  },
-  {
-    "id": 4,
-    "title": "Yume Reality",
-    "createdAt": "2022",
-    "type": "Website Development",
-    "vid": "https://unsplash.it/640/360?random=7",
-    "image": "https://unsplash.it/640/360?random=8"
+    "type": "Graphic Design",
+    "vid": "worksAssets/w2/vid.webm",
+    "image": "worksAssets/w2/img.webp"
   }
 ]

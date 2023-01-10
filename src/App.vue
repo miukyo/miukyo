@@ -132,7 +132,7 @@ onMounted(() => {
         <div class="navbar">
           <!-- ?Navbar Button -->
           <button @click="openMenu.open = !openMenu.open"
-            class="group absolute left-5 lg:left-10 grid place-items-center rounded-tl-2xl">
+            class="group absolute left-5 lg:left-12 grid place-items-center rounded-tl-2xl">
             <svg xmlns="http://www.w3.org/2000/svg"
               class="w-6 h-6 fill-neutral-500 group-hover:fill-black transition-colors" viewBox="0 0 24 24"
               fill="currentColor">
@@ -146,7 +146,7 @@ onMounted(() => {
             class="text-black-500 relative h-fit text-center text-xl font-bold uppercase tracking-tighter transition-colors">
             Miukyo
           </RouterLink>
-          <div class="hidden lg:flex absolute right-12 gap-10 text-sm font-bold uppercase tracking-tighter">
+          <div class="hidden lg:flex absolute right-14 gap-10 text-sm font-bold uppercase tracking-tighter">
             <RouterLink to="/" @click="openMenu.open = false"
               class="h-fit text-center text-neutral-500 transition-colors hover:text-black">
               Home
