@@ -1,6 +1,4 @@
 # <div align="center">Hey 👋, I'm Miukyo</div>  
-  
-
 ### <div align="center">A enthusiastic front end developer and graphics designer</div>  
   
 
