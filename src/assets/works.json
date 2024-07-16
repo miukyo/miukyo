@@ -1,26 +1,32 @@
 [
   {
     "id": 0,
-    "title": "Tsuyu Hortenshia Stream Overlay",
-    "createdAt": "2021",
+    "title": "Nekoyama Sena Stream Overlay",
+    "createdAt": "2023",
     "type": "Graphic Design",
     "vid": "worksAssets/w0/vid.webm",
-    "image": "worksAssets/w0/img.webp"
+    "image": "worksAssets/w0/img.webp",
+    "github": "",
+    "web": ""
   },
   {
     "id": 1,
-    "title": "Yume Reality Website",
-    "createdAt": "2022",
+    "title": "Youtube Chat Styler",
+    "createdAt": "2024",
     "type": "Website Development",
     "vid": "worksAssets/w1/vid.webm",
-    "image": "worksAssets/w1/img.webp"
+    "image": "worksAssets/w1/img.webp",
+    "github": "https://github.com/miukyo/ytlivestyle",
+    "web": "https://ycs.miukyo.my.id/"
   },
   {
     "id": 2,
-    "title": "Nekoyama Sena Stream Overlay",
-    "createdAt": "2022",
-    "type": "Graphic Design",
+    "title": "m3tw",
+    "createdAt": "2024",
+    "type": "Component Library (Under Development)",
     "vid": "worksAssets/w2/vid.webm",
-    "image": "worksAssets/w2/img.webp"
+    "image": "worksAssets/w2/img.webp",
+    "github": "https://github.com/miukyo/m3tw",
+    "web": ""
   }
 ]
