@@ -21,11 +21,21 @@
   },
   {
     "id": 2,
+    "title": "Datenshi",
+    "createdAt": "2024",
+    "type": "Website Development",
+    "vid": "worksAssets/w2/vid.webm",
+    "image": "worksAssets/w2/img.webp",
+    "github": "",
+    "web": "https://datenshi.pw/"
+  },
+  {
+    "id": 2,
     "title": "Speech-to-Text Transcriber Tool",
     "createdAt": "2025",
     "type": "App Development",
-    "vid": "worksAssets/w2/vid.webm",
-    "image": "worksAssets/w2/img.webp",
+    "vid": "worksAssets/w3/vid.webm",
+    "image": "worksAssets/w3/img.webp",
     "github": "https://github.com/miukyo/stt",
     "web": ""
   }
