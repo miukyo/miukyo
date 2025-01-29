@@ -25,11 +25,15 @@ onMounted(() => {
   <div id="About" class="px-5 lg:px-14">
     <div class="grid lg:grid-cols-2">
       <div class="flex flex-col">
-        <h1 class="mt-8 lg:mt-14 text-[5rem] text-center lg:text-start lg:text-[10rem] font-bold leading-none tracking-tighter font-display">ABOUT ME</h1>
+        <h1
+          class="lg:mt-14 text-[28vw] text-center lg:text-start lg:text-[10rem] font-bold leading-none tracking-tighter font-display">
+          ABOUT ME
+        </h1>
 
         <p className="text-2xl text-justify lg:text-4xl tracking-tighter lg:text-left mt-8">
-          Multifaceted Digital Contributor specialized in design and development. I create visually compelling content and user-centric interfaces. I transform ideas into stunning visuals, ensuring
-          seamless digital experiences.
+          Multifaceted Digital Contributor specialized in design and development. I create visually
+          compelling content and user-centric interfaces. I transform ideas into stunning visuals,
+          ensuring seamless digital experiences.
           <br />
           <br />
           Currently looking for work.
@@ -56,7 +60,10 @@ onMounted(() => {
       </div>
 
       <div class="overflow-hidden my-5 lg:my-0 lg:ml-10 lg:mt-10">
-        <img src="../assets/saya.jpg" alt="me" class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
+        <img
+          src="../assets/saya.jpg"
+          alt="me"
+          class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
       </div>
     </div>
   </div>

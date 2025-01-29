@@ -27,96 +27,18 @@ function animOut(el, done) {
   });
 }
 
-function animIntroOut(el, done) {
-  anime({
-    targets: el,
-    translateY: [0, -30],
-    opacity: [1, 0],
-    duration: 300,
-    delay: () => {
-      return anime.random(0, 200);
-    },
-    easing: "easeOutCubic",
-    complete: done,
-  });
-}
-
-function animIntroIn(el, done) {
-  anime({
-    targets: el,
-    translateY: [30, 0],
-    opacity: [0, 1],
-    duration: 300,
-    delay: () => {
-      return anime.random(0, 200);
-    },
-    easing: "easeOutCubic",
-    complete: done,
-  });
-}
 
 const openMenu = reactive({ open: false });
-const intro = reactive({ open: true });
 
-const morse = [".... .", ".-..", ".-..", "-- - "];
-const ms = reactive({ val: 0 });
 
-onMounted(() => {
-  const a = setInterval(() => {
-    ms.val++;
-    if (ms.val >= 4) {
-      clearInterval(a);
-      intro.open = false;
-    }
-  }, 800);
-});
 </script>
 
 <template>
   <main class="max-w-[1920px] mx-auto relative">
-    <!-- ?Intro  -->
-    <Transition @leave="animOut">
-      <div
-        v-if="intro.open"
-        class="w-screen h-screen flex justify-center items-center top-0 left-0 fixed z-50 bg-neutral-200"
-      >
-        <h1 v-for="(e, i) in morse" class="text-5xl font-bold flex absolute">
-          <TransitionGroup @leave="animIntroOut" @enter="animIntroIn">
-            <span class="min-w-[12px]" :key="i" v-if="i === ms.val" v-for="(c, r) in e">{{
-              c
-            }}</span>
-          </TransitionGroup>
-        </h1>
-        <div class="bottom-10 absolute lg:w-1/3 px-5">
-          <span class="w-full flex justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="w-7 h-7"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
-              />
-            </svg>
-          </span>
-          <h1 class="text-center font-bold leading-none tracking-tighter">Epilepsy Warning!</h1>
-          <p class="text-center leading-2 mt-3 font-semibold text-xs tracking-tight">
-            This website may contain flashing lights and other potentially seizure-inducing content.
-            If you have epilepsy, please be cautious when viewing this website.
-          </p>
-        </div>
-      </div>
-    </Transition>
-
     <!-- ?Noise Overlay  -->
     <!-- <div class="noise"></div> -->
 
-    <div v-if="!intro.open" class="relative lg:m-5 rounded-2xl lg:overflow-hidden">
+    <div class="relative lg:m-5 rounded-2xl lg:overflow-hidden">
       <!-- ?Menu Bar -->
       <Transition name="menuBlur">
         <div

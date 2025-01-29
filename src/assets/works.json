@@ -21,12 +21,12 @@
   },
   {
     "id": 2,
-    "title": "m3tw",
-    "createdAt": "2024",
-    "type": "Component Library (Under Development)",
+    "title": "Speech-to-Text Transcriber Tool",
+    "createdAt": "2025",
+    "type": "App Development",
     "vid": "worksAssets/w2/vid.webm",
     "image": "worksAssets/w2/img.webp",
-    "github": "https://github.com/miukyo/m3tw",
+    "github": "https://github.com/miukyo/stt",
     "web": ""
   }
 ]
