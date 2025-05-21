@@ -62,7 +62,7 @@ onMounted(() => {
       <div class="overflow-hidden my-5 lg:my-0 lg:ml-10 lg:mt-10">
         <img
           src="../assets/saya.jpg"
-          alt="me"
+          alt="Photo of Muhammad Zaid"
           class="w-full lg:h-[700px] h-[350px] overflow-hidden rounded object-center object-cover" />
       </div>
     </div>

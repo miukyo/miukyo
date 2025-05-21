@@ -62,6 +62,7 @@ const openMenu = reactive({ open: false });
         <div class="navbar">
           <!-- ?Navbar Button -->
           <button
+            aria-label="menu"
             @click="openMenu.open = !openMenu.open"
             class="group absolute left-5 lg:left-12 grid place-items-center rounded-tl-2xl"
           >
