@@ -38,5 +38,15 @@
     "image": "worksAssets/w3/img.webp",
     "github": "https://github.com/miukyo/stt",
     "web": ""
+  },
+  {
+    "id": 4,
+    "title": "Deck of Disorder (Cards Against Humanity)",
+    "createdAt": "2025",
+    "type": "Website Development",
+    "vid": "worksAssets/w4/vid.webm",
+    "image": "worksAssets/w4/img.webp",
+    "github": "https://github.com/miukyo/deckofdisorder",
+    "web": "https://dod.miukyo.my.id/"
   }
 ]

@@ -37,7 +37,7 @@ onMounted(() => {
           <br />
           <br />
           Currently looking for work.
-          <span className="text-neutral-500 ml-2 text-xl">(6/2024)</span>
+          <span className="text-neutral-500 ml-2 text-xl">(5/2025)</span>
         </p>
         <div className="grid grid-cols-3 mt-12 text-xs lg:text-sm text-neutral-500">
           <p>

@@ -71,8 +71,8 @@ onMounted(() => {
           </div>
         </div>
       </div>
-      <h1 class="relative text-sm lg:text-lg font-bold tracking-tight font-con lg:leading-none text-center lg:mb-20">
-        See other works
+      <h1 class="relative text-sm lg:text-lg font-bold tracking-tight font-con lg:leading-none text-center mb-10 lg:mb-20">
+        See my other works
         <a target="_blank" href="https://drive.google.com/drive/folders/1am9MynmYysocyPBcQ_TxChs_JP7EEVeG?usp=drive_link" class="w-fit transition-colors text-neutral-500 hover:text-black"> here </a>
       </h1>
     </div>
