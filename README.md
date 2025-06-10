@@ -18,7 +18,7 @@
 </div>  
   
 
-- 🌱 I’m currently learning [Kotlin](https://kotlinlang.org/)
+- 🌱 I’m currently learning C++
   
 
 - ❓ Ask me about anything. I would like to have more friends  
