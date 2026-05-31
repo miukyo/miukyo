@@ -1,6 +1,5 @@
 [
   {
-    "id": 0,
     "title": "Nekoyama Sena Stream Overlay",
     "createdAt": "2023",
     "type": "Graphic Design",
@@ -10,7 +9,6 @@
     "web": ""
   },
   {
-    "id": 1,
     "title": "Youtube Chat Styler",
     "createdAt": "2024",
     "type": "Website Development",
@@ -20,7 +18,6 @@
     "web": "https://ycs.miukyo.my.id/"
   },
   {
-    "id": 2,
     "title": "Datenshi",
     "createdAt": "2024",
     "type": "Website Development",
@@ -30,7 +27,6 @@
     "web": "https://datenshi.pw/"
   },
   {
-    "id": 3,
     "title": "Speech-to-Text Transcriber Tool",
     "createdAt": "2025",
     "type": "App Development",
@@ -40,7 +36,6 @@
     "web": ""
   },
   {
-    "id": 4,
     "title": "Deck of Disorder (Cards Against Humanity)",
     "createdAt": "2025",
     "type": "Website Development",
@@ -48,5 +43,50 @@
     "image": "worksAssets/w4/img.webp",
     "github": "https://github.com/miukyo/deckofdisorder",
     "web": "https://dod.miukyo.my.id/"
+  },
+  {
+    "title": "React Material",
+    "createdAt": "2025",
+    "type": "Component Library",
+    "vid": "",
+    "image": "worksAssets/w7.jpg",
+    "github": "https://github.com/miukyo/react-material",
+    "web": "https://material.miukyo.my.id"
+  },
+    {
+    "title": "Katalyst",
+    "createdAt": "2026",
+    "type": "UI Framework",
+    "vid": "",
+    "image": "worksAssets/w8.jpg",
+    "github": "https://github.com/miukyo/katalyst",
+    "web": "https://katalyst.miukyo.my.id"
+  },
+  {
+    "title": "RoLauncher",
+    "createdAt": "2026",
+    "type": "App Development",
+    "vid": "",
+    "image": "worksAssets/w5.jpg",
+    "github": "https://github.com/miukyo/rolauncher",
+    "web": "https://devforum.roblox.com/t/rolauncher-custom-roblox-launcher-not-bootstrapper-open-source/4102702"
+  },
+    {
+    "title": "ewvjs",
+    "createdAt": "2026",
+    "type": "Desktop Framework",
+    "vid": "",
+    "image": "worksAssets/w9.jpg",
+    "github": "https://github.com/miukyo/ewvjs",
+    "web": ""
+  },
+  {
+    "title": "MDrive",
+    "createdAt": "2026",
+    "type": "App Development",
+    "vid": "",
+    "image": "worksAssets/w6.jpg",
+    "github": "https://github.com/miukyo/mdrive",
+    "web": "https://mdrive.miukyo.my.id"
   }
 ]

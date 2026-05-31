@@ -4,9 +4,7 @@ import anime from "animejs";
 import works from "../assets/works.json";
 
 const workLists = reactive({
-  val: works.sort(function (a, b) {
-    return b.id - a.id;
-  }),
+  val: works.reverse(),
 });
 onMounted(() => {
   anime({
@@ -31,15 +29,15 @@ onMounted(() => {
 <template>
   <div id="Works" class="px-5 lg:px-14 w-full">
     <h1 class="lg:mt-14 text-[35vw] text-center lg:text-start lg:text-[10rem] font-bold leading-none tracking-tighter font-display">WORKS</h1>
-    <div class="flex flex-col mt-5">
-      <div v-for="(e, i) in workLists.val" :key="i" class="flex flex-col lg:mb-16 mb-5">
-        <div class="grid grid-cols-2 gap-2">
-          <video class="w-full h-full object-cover col-span-2 lg:col-span-1 rounded overflow-hidden" autoplay muted loop>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4 mt-5">
+      <div v-for="(e, i) in workLists.val" :key="i" class="flex flex-col gap-3 lg:gap-5 lg:mb-10">
+        <div class="aspect-video">
+          <video v-if="e.vid" class="w-full h-full object-cover rounded overflow-hidden" autoplay muted loop playsinline>
             <source :src="e.vid" type="video/webm" />
           </video>
-          <img class="w-full h-full object-cover hidden lg:block rounded overflow-hidden" alt="wimg2" :src="e.image" />
+          <img v-else class="w-full h-full object-cover rounded overflow-hidden" alt="wimg2" :src="e.image" />
         </div>
-        <div class="flex just gap-5 lg:gap-20 mt-3 lg:mt-5">
+        <div class="flex gap-5 lg:gap-8">
           <div>
             <p class="text-xs lg:text-base text-neutral-500 font-medium tracking-tighter leading-none">
               {{ e.createdAt }}
@@ -65,16 +63,16 @@ onMounted(() => {
             <p class="text-xs lg:text-base font-medium tracking-tighter text-neutral-500">
               {{ e.type }}
             </p>
-            <h1 class="text-2xl lg:text-5xl font-bold font-display tracking-tighter lg:leading-none uppercase">
+            <h1 class="text-2xl lg:text-[3vw] font-bold font-display tracking-tighter lg:leading-none uppercase">
               {{ e.title }}
             </h1>
           </div>
         </div>
       </div>
-      <h1 class="relative text-sm lg:text-lg font-bold tracking-tight font-con lg:leading-none text-center mb-10 lg:mb-20">
-        See my other works
-        <a target="_blank" href="https://drive.google.com/drive/folders/1am9MynmYysocyPBcQ_TxChs_JP7EEVeG?usp=drive_link" class="w-fit transition-colors text-neutral-500 hover:text-black"> here </a>
-      </h1>
     </div>
+    <h1 class=" text-sm lg:text-lg font-bold tracking-tight font-con lg:leading-none text-center pt-8 pb-10 lg:pb-20">
+      See my other works
+      <a target="_blank" href="https://drive.google.com/drive/folders/1am9MynmYysocyPBcQ_TxChs_JP7EEVeG?usp=drive_link" class="w-fit transition-colors text-neutral-500 hover:text-black underline"> here </a>
+    </h1>
   </div>
 </template>
